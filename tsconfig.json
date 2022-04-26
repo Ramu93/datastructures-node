@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    // TypeChecking
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "alwaysStrict": true,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    // Modules
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    // Emit
+    "importHelpers": true,
+    "importsNotUsedAsValues": "preserve",
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "newLine": "LF",
+    "noEmitOnError": true,
+    "outDir": "./dist",
+    "removeComments": false,
+    // default - für production enablen
+    // Interop Constraints
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    // Language and Environment
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    // Lib
+    "lib": [
+      "DOM",
+      "ES2021"
+    ],
+    "target": "ES2021",
+    // Completeness
+    "skipLibCheck": true
+  }
+}
