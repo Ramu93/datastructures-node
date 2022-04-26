@@ -3,6 +3,8 @@ import {LStack} from "./ListBasedStack";
 
 export function isBalanced(input: string) {
   let result = false
+
+  // const stack = new AStack()
   const stack = new LStack()
 
   for (let i = 0; i < input.length; i++) {
